@@ -17,7 +17,7 @@ contract Property {
     //     uint256 value;
     //     address currOwner;
     // }
-
+//init
     mapping(uint => landDetails) land;
     function Registration(uint256 _adhaar,string memory _sname, string memory _bname, uint256 _amount,uint id) public {
         land[id].adhaar=_adhaar;
