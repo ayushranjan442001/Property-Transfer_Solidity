@@ -24,6 +24,7 @@ contract Property {
         land[id].sname=_sname;
         land[id].bname=_bname;
         land[id].amount=_amount;
+        //land[id].mount=_mount;
     }
 
     //  function viewAssets()public view returns(uint[] memory){
